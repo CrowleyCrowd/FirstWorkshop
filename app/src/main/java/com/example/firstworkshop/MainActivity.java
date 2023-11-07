@@ -56,16 +56,6 @@ public class MainActivity extends AppCompatActivity {
         buttons.add(btn_8);
         buttons.add(btn_9);
 
-        /*for (Button button : buttons) {
-            button.setOnClickListener(view -> {
-                if (!txt_screen.getText().toString().equals("0")) {
-                    txt_screen.setText(String.format("%s%s", txt_screen.getText().toString(), button.getText().toString()));
-                } else {
-                    txt_screen.setText(button.getText().toString());
-                }
-            });
-        }*/
-
         for (Button button : buttons) {
             button.setOnClickListener(view -> {
                 String currentText = txt_screen.getText().toString();
